@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "target": "ES2015",
+        "noEmit": true
+    },
+    "files": [
+        "server.js",
+        "src/client.js",
+        "src/client.d.ts"
+    ]
+}

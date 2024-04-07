@@ -1,0 +1,12 @@
+{
+	"name": "chat80",
+	"version": "1.0.0",
+	"main": "server.js",
+	"type": "module",
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"ws": "^8.16.0"
+	},
+	"description": "Chat80 je lokální chat"
+}
