@@ -63,13 +63,21 @@ function append(data) {
     }
 
     if (data.file) {
+        const a = document.createElement("a");
+        a.target = "_blank";
+        a.href = data.file;
+
         const image = new Image();
         image.src = data.file;
+        image.alt = "Stáhnout";
+        
         article.append(
             document.createElement("br"), 
             document.createElement("br"),
-            image
+            a
         );
+
+        a.append(image);
     }
 
     section.scrollTo(0, section.scrollHeight);
